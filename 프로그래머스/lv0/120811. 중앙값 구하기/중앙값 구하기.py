@@ -1,4 +1,4 @@
 def solution(array):
-    array.sort(reverse=True)
+    array.sort()
     
     return array[(len(array)//2)]
